@@ -16,3 +16,31 @@ EX-
     1. create a .js file then write some code (function/data variables) that provides data.
     2. now on your node js file include that module (js file)
     3. then use it with the help of created objectof the module.
+
+    Example -
+    In a Js file(my_module.js) Create a module that returns the current date and time:
+        exports.myDateTime = function () {
+            return Date();
+        };
+
+    In another Js File use it - 
+        var date_time = require('./NodeJs_module/my_module');
+        console.log(date_time.myDateTime());
+
+
+
+** Node.js HTTP Module **
+The HTTP module can create an HTTP server that listens to server ports and gives a response back to the client using Use the createServer() method.
+
+=>  Js Snippet :-
+    var http = require('http');
+    //create a server object:
+    http.createServer(function (req, res) {
+    res.write('Hello World!'); //write a response to the client
+    res.end(); //end the response
+    }).listen(8080); //the server object listens on port 8080
+
+
+** URL Module **
+This module provides utilities for URL resolution and parsing.
+to parse a query string use url.parse() function that will take paremeters 1. url, 2. true
