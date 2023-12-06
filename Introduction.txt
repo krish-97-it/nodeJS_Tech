@@ -36,3 +36,7 @@ Node.js runs single-threaded, non-blocking, asynchronous programming, which is v
     1.  first install nodemon (need administration)
         sudo npm i -g nodemon (for mac)
     2.  then use nodemon instead of node. i.e - nodemon myfirst.js
+
+=>  To connect with Database-
+    1.  first install mysql module
+        sudo npm install mysql2 (for mac)
