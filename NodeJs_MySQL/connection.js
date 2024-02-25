@@ -1,8 +1,18 @@
 var mysql = require('mysql2');      // import mysql2 module
 
+// Different port for mac
+// var con = mysql.createConnection({
+//     host: "localhost",
+//     port: 8889,     
+//     user: "root",
+//     password: 'root',
+//     database: 'krishmish_web_dev'
+// });
+
+// For windows
 var con = mysql.createConnection({
     host: "localhost",
-    port: 8889,
+    port: 3308,     
     user: "root",
     password: 'root',
     database: 'krishmish_web_dev'
