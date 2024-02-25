@@ -11,7 +11,7 @@ I.E - If you use wamp/mamp local server and you created db connection with its i
 
 Else,
 
-You can create one seperate new connection or need to connect different connection
+You can create one seperate new connection or need to connect different connection by tool
 
 
 # Open CMD/Terminal and check 
